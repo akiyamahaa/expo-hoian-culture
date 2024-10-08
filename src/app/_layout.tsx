@@ -28,14 +28,7 @@ const RootLayout = () => {
 
   return (
     <Provider store={store}>
-      <Stack screenOptions={{ headerShown: false }}>
-        {/* <Stack.Screen
-          name="(no-tabs)/search"
-          options={{
-            presentation: 'modal',
-          }}
-        /> */}
-      </Stack>
+      <Stack screenOptions={{ headerShown: false }}></Stack>
     </Provider>
   )
 }

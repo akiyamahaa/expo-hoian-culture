@@ -7,7 +7,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace('/(tabs)/home')
-    }, 1000)
+    }, 2000)
 
     return () => clearTimeout(timer)
   }, [])
